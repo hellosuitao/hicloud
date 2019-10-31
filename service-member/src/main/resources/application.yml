@@ -1,0 +1,19 @@
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:6868/eureka/
+#server:
+#  port: 8762
+#spring:
+#  application:
+#    name: service-member
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:6868/eureka/
+server:
+  port: 8763
+spring:
+  application:
+    name: service-member
