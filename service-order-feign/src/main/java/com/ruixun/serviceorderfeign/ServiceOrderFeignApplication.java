@@ -13,5 +13,4 @@ public class ServiceOrderFeignApplication {
     public static void main(String[] args) {
         SpringApplication.run(ServiceOrderFeignApplication.class, args);
     }
-
 }

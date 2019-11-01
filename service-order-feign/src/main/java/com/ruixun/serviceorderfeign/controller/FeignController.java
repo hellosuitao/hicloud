@@ -16,6 +16,6 @@ public class FeignController {
 
     @RequestMapping("/getList")
     public List<String> getList(){
-      return  memberFeign.getUserList();
+        return  memberFeign.getUserList();
     }
 }
